@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: Assets/Samples/Immersal SDK/2.0.0/Core Samples/Scenes/SimpleSample.unity
+    guid: dc3a71fba008f4f2899362a3d0c1a3f8
+  - enabled: 1
+    path: Assets/Scenes/XR_Scene.unity
+    guid: dbe4ab0253a97874a8358b67d5ea9c8c
+  - enabled: 0
+    path: Assets/Scenes/SampleScene.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 0
+    path: Assets/Scenes/Opit1.unity
+    guid: e7711ebefc4833440b059d9f0b30147f
+  m_configObjects:
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 422306f3502c29c48b57eeab695469a3, type: 2}
+    UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: 8d944c6f819536749a54f9a376ecb42b, type: 2}
+    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: d24851ee7c834d840b2154e0cc659a79, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 84db1ea4e956a684cbca3de4032d7875, type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 484d67411b1f3eb4b87d65e523bd1756, type: 2}
